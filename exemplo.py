@@ -19,7 +19,7 @@ layout = [
     [sg.Menu(menu_def, tearoff=True)],
     [sg.Text('(Almost) All widgets in one Window!', size=(30, 1), justification='center', font=("Helvetica", 25), relief=sg.RELIEF_RIDGE)],
     [sg.Text('Here is some text.... and a place to enter text')],
-    [sg.InputText('Este é meu texto')],
+    [sg.InputText('Este é meu texto alterado')],
     [sg.Frame(layout=[
     [sg.Checkbox('Checkbox', size=(10,1)),  sg.Checkbox('My second checkbox!', default=True)],
     [sg.Radio('My first Radio!     ', "RADIO1", default=True, size=(10,1)), sg.Radio('My second Radio!', "RADIO1")]], title='Options',title_color='red', relief=sg.RELIEF_SUNKEN, tooltip='Use these to set flags')],
